@@ -12,6 +12,8 @@
 		3FA9C4BE1BF3D4B300551D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9C4BC1BF3D4B300551D3F /* Main.storyboard */; };
 		3FA9C4C01BF3D4B300551D3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9C4BF1BF3D4B300551D3F /* Assets.xcassets */; };
 		3FA9C4C31BF3D4B300551D3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9C4C11BF3D4B300551D3F /* LaunchScreen.storyboard */; };
+		3FA9C4E91BF680B700551D3F /* PercentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9C4E81BF680B700551D3F /* PercentViewController.swift */; };
+		3FC7BFB61BFBC5A7001CDA94 /* scheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7BFB51BFBC5A7001CDA94 /* scheduleController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3FA9C4BF1BF3D4B300551D3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FA9C4C21BF3D4B300551D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FA9C4C41BF3D4B300551D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA9C4E81BF680B700551D3F /* PercentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentViewController.swift; sourceTree = "<group>"; };
+		3FC7BFB51BFBC5A7001CDA94 /* scheduleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scheduleController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				3FA9C4B81BF3D4B300551D3F /* AppDelegate.swift */,
 				3FA9C4BA1BF3D4B300551D3F /* ViewController.swift */,
+				3FA9C4E81BF680B700551D3F /* PercentViewController.swift */,
+				3FC7BFB51BFBC5A7001CDA94 /* scheduleController.swift */,
 				3FA9C4BC1BF3D4B300551D3F /* Main.storyboard */,
 				3FA9C4BF1BF3D4B300551D3F /* Assets.xcassets */,
 				3FA9C4C11BF3D4B300551D3F /* LaunchScreen.storyboard */,
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					3FA9C4B41BF3D4B300551D3F = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = CQA28HRSUW;
 					};
 				};
 			};
@@ -135,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC7BFB61BFBC5A7001CDA94 /* scheduleController.swift in Sources */,
 				3FA9C4BB1BF3D4B300551D3F /* ViewController.swift in Sources */,
 				3FA9C4B91BF3D4B300551D3F /* AppDelegate.swift in Sources */,
+				3FA9C4E91BF680B700551D3F /* PercentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +256,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Calcuplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.otter.Calcuplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -258,10 +270,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Calcuplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.otter.Calcuplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -284,6 +299,7 @@
 				3FA9C4C91BF3D4B300551D3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
