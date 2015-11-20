@@ -83,6 +83,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="hexagonBG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="b7y-Og-4W9">
+                                <rect key="frame" x="-63" y="-7" width="726" height="713"/>
+                                <animations/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calcuplate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RqC-Vg-uT3">
                                 <rect key="frame" x="139" y="20" width="323" height="68"/>
                                 <animations/>
@@ -118,7 +122,7 @@
                                     <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VNv-ZV-XEe"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMk-Df-mHT">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMk-Df-mHT">
                                 <rect key="frame" x="20" y="303" width="560" height="38"/>
                                 <animations/>
                                 <constraints>
@@ -155,7 +159,7 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="wWO-gr-jNP"/>
                                 </connections>
                             </textField>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2wL-zo-1K9">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2wL-zo-1K9">
                                 <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                                 <animations/>
                                 <constraints>
@@ -189,11 +193,14 @@
                             <constraint firstItem="ENS-1O-gOf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OF9-Us-rgl"/>
                             <constraint firstItem="2wL-zo-1K9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="PCC-2n-y9o"/>
                             <constraint firstAttribute="trailingMargin" secondItem="2wL-zo-1K9" secondAttribute="trailing" constant="-20" id="PNa-mj-htc"/>
+                            <constraint firstItem="b7y-Og-4W9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R1Z-JE-Tt7"/>
                             <constraint firstItem="t3z-Gf-XiG" firstAttribute="top" secondItem="Tp7-bM-cuB" secondAttribute="bottom" constant="20" id="bTO-np-4Kz"/>
                             <constraint firstItem="t3z-Gf-XiG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cXe-gG-PYi"/>
                             <constraint firstItem="NMk-Df-mHT" firstAttribute="top" secondItem="t3z-Gf-XiG" secondAttribute="bottom" constant="8" id="fWO-Zd-t1G"/>
                             <constraint firstItem="Tp7-bM-cuB" firstAttribute="top" secondItem="AMd-0M-1tQ" secondAttribute="bottom" constant="37" id="gIk-3e-mrj"/>
                             <constraint firstItem="AMd-0M-1tQ" firstAttribute="top" secondItem="ENS-1O-gOf" secondAttribute="bottom" constant="35" id="gTA-Za-sDO"/>
+                            <constraint firstItem="b7y-Og-4W9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-7" id="jam-wu-dwx"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="b7y-Og-4W9" secondAttribute="bottom" constant="-106" id="oxs-jx-X8G"/>
                             <constraint firstItem="NMk-Df-mHT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tg0-Qh-bcQ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2wL-zo-1K9" secondAttribute="bottom" id="ydS-UC-bUr"/>
                         </constraints>
@@ -313,7 +320,10 @@
             <point key="canvasLocation" x="1189" y="133"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="hexagonBG.jpg" width="1429" height="1667"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cGV-hp-Ja5"/>
+        <segue reference="dpg-VQ-gq6"/>
     </inferredMetricsTieBreakers>
 </document>
