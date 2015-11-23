@@ -14,7 +14,7 @@
 		3FA9C4C31BF3D4B300551D3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9C4C11BF3D4B300551D3F /* LaunchScreen.storyboard */; };
 		3FA9C4E91BF680B700551D3F /* PercentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9C4E81BF680B700551D3F /* PercentViewController.swift */; };
 		3FC7BFB61BFBC5A7001CDA94 /* scheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7BFB51BFBC5A7001CDA94 /* scheduleController.swift */; };
-		3FFA0F471BFFBA34000E3082 /* hexagonBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA0F461BFFBA34000E3082 /* hexagonBG.jpg */; };
+		3FFA0FC11C038A0C000E3082 /* HexBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA0FC01C038A0C000E3082 /* HexBG.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		3FA9C4C41BF3D4B300551D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FA9C4E81BF680B700551D3F /* PercentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentViewController.swift; sourceTree = "<group>"; };
 		3FC7BFB51BFBC5A7001CDA94 /* scheduleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scheduleController.swift; sourceTree = "<group>"; };
-		3FFA0F461BFFBA34000E3082 /* hexagonBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hexagonBG.jpg; sourceTree = "<group>"; };
+		3FFA0FC01C038A0C000E3082 /* HexBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HexBG.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 		3FA9C4B71BF3D4B300551D3F /* Calcuplate */ = {
 			isa = PBXGroup;
 			children = (
-				3FFA0F461BFFBA34000E3082 /* hexagonBG.jpg */,
+				3FFA0FC01C038A0C000E3082 /* HexBG.png */,
 				3FA9C4B81BF3D4B300551D3F /* AppDelegate.swift */,
 				3FA9C4BA1BF3D4B300551D3F /* ViewController.swift */,
 				3FA9C4E81BF680B700551D3F /* PercentViewController.swift */,
@@ -134,8 +134,8 @@
 			files = (
 				3FA9C4C31BF3D4B300551D3F /* LaunchScreen.storyboard in Resources */,
 				3FA9C4C01BF3D4B300551D3F /* Assets.xcassets in Resources */,
+				3FFA0FC11C038A0C000E3082 /* HexBG.png in Resources */,
 				3FA9C4BE1BF3D4B300551D3F /* Main.storyboard in Resources */,
-				3FFA0F471BFFBA34000E3082 /* hexagonBG.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
